@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <title>Cornelia Rossi Martinetti</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sito su Cornelia Rossi Martinetti" />
+    <meta name="keywords" content="salotti, Ottocento, libri, autori, Lugo, Bologna" />
+    <meta name="author" content="Lorenza Gambetti" />
+    <!-- metadati DC -->
+    <meta name="DC.Title" content="Cornelia Rossi Martinetti">
+    <meta name="DC.Creator" content="Lorenza Gambetti">
+    <meta name="DC.Subject" content="Cornelia Rossi Martinetti">
+    <link rel="DC.Subject" href="http://id.loc.gov/authorities/names/n82110703">
+    <meta name="DC.Description" content="Sito web sulle risorse culturali pubblicate online riguardanti il personaggio storico di Cornelia Rossi Martinetti">
+    <meta name="DC.Date" content="2024">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Format" content="html/css/js">
+    <link rel="DC.Identifier" href="https://www.corneliarossimartinetti.github.io">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Coverage" content="Ottocento">
+    <link rel="DC.Coverage"
+        href="http://vocab.getty.edu/page/tgn/1000080">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <!-- simboli -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  
+  <body>
+    
+    <!-- collapsible navbar (responsive) -->
+    <nav class="navbar navbar-expand-lg" id="header-navbar">
+        <div class="container-fluid" id="navbar-container">
+            <div id="top" class="header">
+                <a class="navbar-brand" href="index.html"><img src="img/corneliarossimartinetti-logo.png" id="logo" class="mx-auto d-block" /></a>
+            </div>
+            <!-- toggle button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link navbar-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link navbar-link" href="raccolta.html">Raccolta</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link navbar-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cornelia Rossi Martinetti</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Biografia</a></li>
+                            <li><a class="dropdown-item" href="citazioni-cornelia.html">Cornelia secondo i contemporanei</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="bibliografia.html">Bibliografia</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link navbar-link" href="#">Il progetto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- top button -->
+    <button onclick="topFunction()" id="myBtn" title="Torna su"><i class="fas fa-arrow-up"></i></button>
+
+    <section class="row hero">
+        <!-- hero heading -->
+        <div class="col">
+            <div class="hero-index">
+                <h1>Chi era<br /><span class="underline-text">Cornelia Rossi Martinetti</span></h1>
+                <a class="btn btn-outline-dark scopri-sotto" href="#storia-progetto" role="button">Scoprilo qui sotto <i class="fas fa-arrow-down" style="color:#cc0000"></i></a>
+            </div>
+        </div>
+
+        <!-- carousel -->
+        <div class="col carosello">
+            <div class="box-carousel">
+                <div id="demo" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row carousel-slideshow">
+                                <div class="col"><img class="rounded-3" src="img/ritratto-cornelia.png"></div>
+                                <div class="col"><img class="rounded-3" src="img/libro-amelie.png"></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row carousel-slideshow">
+                                <div class="col"><img class="rounded-3" src="img/palazzomartinetti-bologna.jpg"></div>
+                                <div class="col"><img class="rounded-3" src="img/palazzorossi-lugo.jpg"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- descrizione progetto -->
+    <section id="storia-progetto" class="row g-0">
+        <div class="col bg-light storia rounded-3">
+            <p><span class="red-text"><b>Cornelia Rossi Martinetti</b></span> (Lugo 1781 - Bologna 1867) è stata una delle più celebri nobildonne nel territorio bolognese nella prima metà del diciannovesimo secolo. La sua cultura letteraria si estendeva oltre i confini italiani, sapeva infatti le lingue straniere e scrisse anche un romanzo in francese, <em>Amélie</em>, sulla falsariga del romanzo femminile francese del tempo. Tenne un rinomato salotto letterario nella sua residenza bolognese, il palazzo Martinetti, a cui presero parte diverse personalità di primo piano sul panorama letterario internazionale, tra cui Stendhal, Leopardi, Foscolo, Canova. </p>
+            <div class="btn-storia-progetto">
+                <a class="btn btn-outline-dark" href="#" role="button"><i class="fas fa-arrow-right" style="color:#cc0000"></i> Leggi la sua biografia</a>
+            </div>
+        </div>
+        <div class="col bg-light progetto rounded-3">
+            <p>Nel corso dei decenni, parecchi studiosi si sono interessati a questa figura per l’influenza che ha avuto nella biografia di diversi autori. <br/>In questo <span class="red-text"><b>spazio digitale</b></span> si intende raccogliere tutte quelle testimonianze della sua vita e della sua attività che negli ultimi tempi sono state rese fruibili online, che siano materiali prodotti dalla stessa autrice o dai suoi contemporanei, fiduciosi del fatto che l'opera di digitalizzazione di oggetti culturali fisici e della loro messa a disposizione sul web continui e renda questa raccolta sempre più ricca.</p>
+            <div class="btn-storia-progetto">
+                <a class="btn btn-outline-dark" href="#" role="button"><i class="fas fa-arrow-right" style="color:#cc0000"></i> Scopri di più sul progetto</a>
+            </div>
+        </div>
+        <div class="col bg-light citazioni rounded-3">
+            <p>Gli studi condotti sulla biografia della contessa Martinetti si avvalgono di una ricca serie di <span class="red-text"><b>riferimenti</b></span> al suo carattere e al suo aspetto, oltre che alle sue occupazioni, presenti nei carteggi e nelle opere delle personalità dell'epoca. Data la sua centralità nell'ambiente culturale prima bolognese, poi romano, in molti hanno infatti parlato della "bella Cornelia" e della sua raffinatezza. <br />Troverai all'interno del sito una sezione dedicata alle citazioni su Cornelia Rossi Martinetti, oltre a una serie di lettere indirizzate a lei.</p>
+            <div class="btn-storia-progetto">
+                <a class="btn btn-outline-dark" href="#" role="button"><i class="fas fa-arrow-right" style="color:#cc0000"></i> Leggi i passi che parlano di Cornelia Martinetti</a>
+            </div>
+        </div>
+    </section>
+    <div class="scorri-accordion">
+        <p class="freccia-giu vai"><a href="#naviga-raccolta"><i class="fa-solid fa-circle-chevron-down"></i></a></p>
+    </div>
+
+    <section id="naviga-raccolta">
+        <h1 class="h1-raccolta">
+            Naviga nella <a class="red-text link-raccolta" href="raccolta.html">raccolta</a><br />
+            <i class="fa-solid fa-box-archive" style="color:#ffad00;"></i> <i class="fa-solid fa-barcode" style="color:#f8113d;"></i> <i class="fa-solid fa-image" style="color:#02a1a1;"></i> <i class="fa-solid fa-book" style="color:#8b008b;"></i> <i class="fa-solid fa-file-code" style="color:#000577;"></i>
+        </h1>
+        <h2 class="h2-raccolta">Scopri chi era Cornelia Rossi Martinetti attraverso le <span class="underline-text">risorse digitali</span></h2>
+    </section>
+
+    <!-- accordion esplora la raccolta -->
+    <section class="accordion-raccolta">
+        <h3 class="h3-index">Naviga la raccolta per:</h3>
+        <div class="accordion" id="accordionExample">
+            
+            <!-- prima tendina: date -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <strong>Data</strong>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <a class="btn btn-outline-dark btn-lg" href="#" role="button">1812</a>
+                        <a class="btn btn-outline-dark btn-lg" href="#" role="button">1813</a>
+                        <a class="btn btn-outline-dark btn-lg" href="#" role="button">1817</a>
+                        <a class="btn btn-outline-dark btn-lg" href="#" role="button">1823</a>
+                        <a class="btn btn-outline-dark btn-lg" href="#" role="button">1824</a>
+                        <a class="btn btn-outline-dark btn-lg" href="#" role="button">1849</a>
+                        <a class="btn btn-outline-dark btn-lg" href="#" role="button">1854</a>
+                        <a class="btn btn-outline-dark btn-lg" href="#" role="button">1858</a>
+                        <a class="btn btn-outline-dark btn-lg" href="#" role="button">1860</a>
+                        <a class="btn btn-outline-dark btn-lg" href="testi-autore.html" role="button"><i class="fas fa-arrow-right" style="color:#cc0000"></i> Tutte le <span class="underline-text">date</span></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- seconda tendina: luogo -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong>Luogo</strong>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <!--cards luoghi-->
+                        <div class="row row-cols-2 row-cols-md-4 g-2">
+                            <div class="col">
+                                <a class="accordion-card" href="raccolta.html">
+                                    <div class="card luoghi h-100">
+                                        <img src="img/Lugo.jpg" class="card-img-top">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Lugo</h6>
+                                            <p>In foto: Palazzo dei Conti Rossi</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="accordion-card" href="raccolta.html">
+                                    <div class="card luoghi h-100">
+                                        <img src="img/Bologna.jpg" class="card-img-top">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Bologna</h6>
+                                            <p>In foto: Palazzo Martinetti-Rossi</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="accordion-card" href="raccolta.html">
+                                    <div class="card luoghi h-100">
+                                        <img src="img/Roma.jpg" class="card-img-top">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Roma</h6>
+                                            <p>In foto: Palazzo Cenci-Bolognetti</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <div class="card luoghi scopri-accordion h-100">
+                                    <a class="accordion-card" href="raccolta.html">
+                                        <div class="card-body">
+                                            <h5><i class="fas fa-arrow-right" style="color:#cc0000"></i> Scopri tutti i <span class="underline-text">luoghi</span></h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- terza tendina: risorse -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <strong>Tipo di risorsa</strong>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <!--cards tipi di risorsa-->
+                        <div class="row row-cols-2 row-cols-md-4 g-2">
+                            <div class="col">
+                                <a class="accordion-card" href="raccolta.html">
+                                    <div class="card tipologie h-100">
+                                        <img src="img/disegno.png" class="card-img-top">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Immagini</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="accordion-card" href="raccolta.html">
+                                    <div class="card tipologie h-100">
+                                        <img src="img/libro-amelie.png" class="card-img-top">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Testi a stampa</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="accordion-card" href="raccolta.html">
+                                    <div class="card tipologie h-100">
+                                        <img src="img/lettera.jpeg" class="card-img-top">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Manoscritti</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <div class="card tipologie scopri-accordion h-100">
+                                    <a class="accordion-card" href="raccolta.html">
+                                        <div class="card-body">
+                                            <h5><i class="fas fa-arrow-right" style="color:#cc0000"></i> Scopri tutte le <span class="underline-text">tipologie</span></h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- quarta tendina: autori -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <strong>Autore</strong>
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <!--cards autori-->
+                        <div class="row row-cols-3 row-cols-md-5 g-2">
+                            <div class="col">
+                                <a class="accordion-card" href="raccolta.html">
+                                    <div class="card autori h-100">
+                                        <img src="img/litografiaCornelia1.jpg" class="card-img-top">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Cornelia Rossi Martinetti</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="accordion-card" href="raccolta.html">
+                                    <div class="card autori h-100">
+                                        <img src="img/Foscolo.jpg" class="card-img-top">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Ugo Foscolo</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="accordion-card" href="raccolta.html">
+                                    <div class="card autori h-100">
+                                        <img src="img/Leopardi.jpg" class="card-img-top">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Giacomo Leopardi</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="accordion-card" href="raccolta.html">
+                                    <div class="card autori h-100">
+                                        <img src="img/Stendhal.jpg" class="card-img-top">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Stendhal</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <div class="card autori scopri-accordion h-100">
+                                    <a class="accordion-card" href="raccolta.html">
+                                        <div class="card-body">
+                                            <h5><i class="fas fa-arrow-right" style="color:#cc0000"></i> Scopri tutti gli <span class="underline-text">autori</span></h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="bg-light text-center py-3">
+        <p><a href="#">Crediti</a> - <a href="#">Licenze</a></p>
+        <p>&copy; Lorenza Gambetti 2024 - Corso di Digital Humanities e Patrimonio Culturale</p>
+    </footer>
+
+
+    <script src="script/script-header.js"></script>
+
+  </body>
+</html>

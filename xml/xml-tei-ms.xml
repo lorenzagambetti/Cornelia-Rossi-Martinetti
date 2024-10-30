@@ -1,0 +1,112 @@
+<TEI xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+		  	<titleStmt>
+		   		<title>Lettera di Ugo Foscolo alla contessa d'Albany del 12 settembre 1813</title>
+		   		<author xml:id="UF">Ugo Foscolo</author>
+		  	</titleStmt>
+		  	<publicationStmt>
+				<authority>Lorenza Gambetti</authority>
+			  	<availability status="free">
+			  		<p>Dominio pubblico</p>
+			  	</availability>
+		  	</publicationStmt>
+		  	<sourceDesc>
+		  		<listBibl>
+		  			<msDesc>
+					    <msIdentifier>
+					    	<country>Francia</country>
+					        <institution>Montpellier Méditerranée Métropole - Médiathèque centrale Emile Zola</institution>
+					        <collection>Fonds Louise d'Albany</collection>
+					        <idno>MS0062_A26_18</idno>
+					        <altIdentifier>
+					            <idno type="ARK">ark:/12148/btv1b10553665m</idno>
+					        </altIdentifier>
+					    </msIdentifier>
+					    <msContents>
+					        <msItem>
+					            <title>Lettera alla contessa d'Albany del 12 settembre 1813</title>
+					            <author>Ugo Foscolo</author>
+					        </msItem>
+					    </msContents>
+					    <history>
+					        <origin>
+					            <origPlace>Bologna</origPlace>
+					            <origDate when="1813-09-12">12 settembre 1813</origDate>
+					        </origin>
+					        <acquisition>Dono di <name type="person">François-Xavier Fabre</name> nel <date>1825</date></acquisition>
+					    </history>
+					</msDesc>
+					<bibl>
+			   			<title>Opere complete di Ugo Foscolo. Volume secondo</title>
+						<author>Ugo Foscolo</author>
+						<edition>Napoli : [s.n.], 1860. Ed. digitalizzata</edition>
+				   		<publisher>SBS Sistema Bibliotecario della Sapienza</publisher>
+			   			<distributor>Google Books</distributor>
+			   			<date when="2012">2012</date>
+			   		</bibl>
+			   	</listBibl>
+		  	</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Citazione che si inserisce all'interno di una raccolta di risorse digitali riguardanti Cornelia Rossi Martinetti, in particolare testimonianze dirette da parte dei suoi contemporanei</p>
+			</projectDesc>
+			<classDecl>
+				<taxonomy xml:id="DDC">
+					<bibl>
+						<title>Dewey Decimal Classification</title>
+					</bibl>
+				</taxonomy>
+				<taxonomy xml:id="lcsh">
+					<bibl>
+						<title>Library of Congress Subject Headings</title>
+					</bibl>
+				</taxonomy>
+				<taxonomy xml:id="lcnaf">
+					<bibl>
+						<title>Library of Congress Name Authority File</title>
+					</bibl>
+				</taxonomy>
+				<taxonomy xml:id="tgn">
+					<bibl>
+						<title>Getty Thesaurus of Geographic Names</title>
+					</bibl>
+				</taxonomy>
+				<taxonomy xml:id="wd">
+					<bibl>
+						<title>Wikidata</title>
+					</bibl>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords scheme="#lcsh">
+					<term>Literature</term>
+					<term>Italian letters</term>
+				</keywords>
+				<keywords scheme="#lcnaf">
+					<term>Albany, Louisa, Princess of Stolberg-Gedern, calling herself Countess of, 1752-1824</term>
+				</keywords>
+				<keywords scheme="#tgn">
+					<term>Bologna</term>
+				</keywords>
+				<classCode scheme="#DDC">856</classCode> <!-- Italian letters -->
+			</textClass>
+		</profileDesc>
+ 	</teiHeader>
+ 	<text>
+ 		<body>
+			<head rend="italic">Alla <persName ref="http://id.loc.gov/authorities/names/no2004053794">contessa d'Albany</persName></head>
+			<div>
+				<p><placeName ref="http://vocab.getty.edu/page/tgn/7004847">Bologna</placeName>, <date when="1813-09-12">12 settembre 1813</date></p>
+				<p>Mia signora,<lb/>
+				Eccomi solamente diviso da <placeName ref="http://vocab.getty.edu/page/tgn/7000457">Firenze</placeName> dal <quote rend="italic underlined-dashed">Padre Appennino</quote>, come lo chiamava il povero <persName ref="http://id.loc.gov/authorities/names/n79082132">Tasso</persName> quando fuggiva ramingo in <placeName ref="http://vocab.getty.edu/page/tgn/7003994">Urbino</placeName> : e spesso mi vergogno pensando ch'io ho speso in questo giro quanto a quel grand'uomo sarebbe bastato a vivere un anno. Mi fermerò qui sino a tutto il dì <date when="1813-09-20">20</date>. - La bella <persName ref="http://id.loc.gov/authorities/names/n82110703">Martinetti</persName> è partita per <placeName ref="http://vocab.getty.edu/page/tgn/7008038">Parigi</placeName>, anzi era in <placeName ref="http://vocab.getty.edu/page/tgn/7005903">Milano</placeName> quand'io vi giungeva a' <date when="1813-07-28">28 di luglio</date>; ed ora sarà affaccendata a vedere ed a farsi vedere. Io frattanto mi sono albergato a una trista locanda, dove tremo di freddo, e torco il naso quando m'apparecchiano da desinare. Ho voluto ad ogni modo andare a visitare il bel giardino e la bella casa della bella Martinetti; e bench'io non abbia sospirato - oggimai non posso sospirare che per una sola persona - m'è tuttavia rincresciuto di non trovarvi la padrona gentile. - L'altra <hi rend="italic">Grazia</hi>, di cui ella mi dice che sarebbe venuta in Bologna, non s'è per anche lasciata vedere, nè verrà, a quanto io credo: ma quand'anche mi capitasse innanzi, non mi farebbe nè bene nè male; non ho l'animo disposto alla galanteria. - Poche ore prima d'uscir di Milano ebbi un lungo colloquio con la B***, e mi parve più infelice e più virtuosa e più bella che mai; - e mi s'aprì una nuova piaga, in cui non so se l'antico amore ci ha parte, ma che mi si esacerba sempre più in tutti i pensieri, specialmente quando mi trovo solo; e sono mal mio grado convinto che non posso, nè potrò forse mai, recare sollievo alle sciagure di quella infelicissima giovine. Ma l'averla lasciata in questi momenti, e in sì <emph rend="italic">critiche circostanze</emph>, e senza persona capace di consolarla è un rimorso che non può acquetarsi dentro di me. Ma di questo parlerò con lei, mia signora, ed ella m'udrà con bontà e con pietà; e narrandole schiettamente la storia, s'accorgerà ch'io non esagero il mio dispiacere. è vero che v'è certa voluttà nel dolore, anzi v'è spesso non so quale ostentazione patetica; ma la voluttà e l'ostentazione non hanno luogo quando l'afflizione nostra deriva dagli irreparabili mali degli altri - e di persone che non erano educate a soffrire; che avevano sortito dalla natura tanta virtù da non avere bisogno delle aspre lezioni della sventura.</p>
+				<p>Non so dirle di certo se la <title rend="italic" ref="https://www.wikidata.org/wiki/Q3934674">Ricciarda</title> si reciterà: andrò fra un'ora in teatro alle prove; e se l'attore che fa da <hi rend="italic underlined-dashed">Guido</hi> non ci riescisse, io sospenderò assolutamente la recita. Gli amici miei che udirono le prove anteriori, mi hanno prognosticato assai male di quel disgraziatissimo attore; tanto più che il carattere di Guido, parte per colpa dell'argomento e parte per colpa dell'autore, è il più infelice della tragedia. - Comunque sia, pel <date when="1813-09-20">giorno 20</date>, o prima forse, sarò a discorrere con lei; e mi struggo di riposare una volta da questo pellegrinaggio, e di venire in una casa dove si possa caldamente e strettamente parlare. I miei saluti al <persName ref="http://id.loc.gov/authorities/names/n88299616">sig. Fabre</persName>: spero di trovarlo sano della podagra, e che non abbia bisogno de' miei conforti. Ed ella, signora mia, viva certa ch'io verrò a rivederla come uomo che in questi cinquanta giorni ha quasi tutte le ore pensato a lei, e desiderando di darle prove di gratitudine per tante affettuosissime gentilezze di cui mi ha, oltre ogni mio merito ed espettazione, onorato.</p>
+				<p>Suo servitore ed amico leale.</p>
+				<p><persName ref="http://id.loc.gov/authorities/names/n79021284">Ugo Foscolo</persName></p>
+ 			</div>
+ 		</body>
+ 	</text>
+</TEI>

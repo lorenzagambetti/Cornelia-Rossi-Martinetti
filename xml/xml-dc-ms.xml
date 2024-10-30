@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:title>Lettera di Ugo Foscolo alla contessa d'Albany</dc:title>
+    <dc:creator xsi:type="dcterms:Agent" xsi:about="http://viaf.org/viaf/36929008">Foscolo, Ugo</dc:creator>
+    <!-- Library of Congress Subject Headings-->
+    <dc:subject xsi:type="dcterms:LCSH">Authors, Italian--19th century--Correspondence</dc:subject>
+    <dc:description>Lettera di Ugo Foscolo alla contessa d'Albany del 12 settembre 1813</dc:description>
+    <dc:publisher xsi:type="dcterms:Agent" xsi:about="https://www.wikidata.org/wiki/Q193563">Montpellier Méditerranée Métropole - Médiathèque centrale Emile Zola</dc:publisher>
+    <dc:date>2021-10-17</dc:date>
+    <dc:type>text</dc:type>
+    <dc:identifier xsi:type="ARK">ark:/12148/btv1b10553665m</dc:identifier>
+    <dc:language>ita</dc:language>
+    <dcterms:temporal>1813-09-12</dcterms:temporal>
+    <dcterms:temporal>Ottocento</dcterms:temporal>
+    <!-- Getty Thesaurus of Geographic Names: Bologna -->
+    <dcterms:spatial xsi:type="TGN">7004847</dcterms:spatial>
+    <dc:rights xsi:type="CC">http://creativecommons.org/publicdomain/zero/1.0/</dc:rights>
+</metadata>

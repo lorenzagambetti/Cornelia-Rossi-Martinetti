@@ -1,0 +1,89 @@
+<TEI xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0">
+
+	<teiHeader>
+		<fileDesc>
+		  	<titleStmt>
+		   		<title>Citazione da "Rome, Naples et Florence, en 1817" di Stendhal</title>
+		   		<author xml:id="St">Stendhal</author>
+		  	</titleStmt>
+		  	<publicationStmt>
+		  		<authority>Lorenza Gambetti</authority>
+		   		<availability status="free">
+		    		<p>Dominio pubblico</p>
+		   		</availability>
+		  	</publicationStmt>
+		  	<sourceDesc>
+			   	<listBibl>
+			   		<bibl>
+			   			<publisher>Bayerische Staatsbibliothek</publisher>
+				   		<distributor>Das Münchener Digitalisierungszentrum</distributor>
+				   		<pubPlace>München</pubPlace>
+				   		<idno type="OCLC">3212385</idno>
+				   		<date when="2011-12-12">12/12/2011</date>
+			   		</bibl>
+			   		<bibl>
+			   			<title>Rome, Naples et Florence, en 1817</title> by <author>Stendhal</author>. <pubPlace>Paris</pubPlace> : <publisher>Delaunay</publisher>, <date when="1817">1817</date>.
+			   		</bibl>
+			   	</listBibl>
+		  	</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Citazione che si inserisce all'interno di una raccolta di risorse digitali riguardanti Cornelia Rossi Martinetti, in particolare testimonianze dirette da parte dei suoi contemporanei</p>
+			</projectDesc>
+			<classDecl>
+				<taxonomy xml:id="DDC">
+					<bibl>
+						<title>Dewey Decimal Classification</title>
+					</bibl>
+				</taxonomy>
+				<taxonomy xml:id="lcsh">
+					<bibl>
+						<title>Library of Congress Subject Headings</title>
+					</bibl>
+				</taxonomy>
+				<taxonomy xml:id="lcnaf">
+					<bibl>
+						<title>Library of Congress Name Authority File</title>
+					</bibl>
+				</taxonomy>
+				<taxonomy xml:id="lcc">
+					<bibl>
+						<title>Library of Congress Classification</title>
+					</bibl>
+				</taxonomy>
+				<taxonomy xml:id="tgn">
+					<bibl>
+						<title>Getty Thesaurus of Geographic Names</title>
+					</bibl>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+                <language ident="fr">Francese</language>
+            </langUsage>
+			<textClass>
+				<keywords scheme="#lcsh">
+					<term>Literature</term>
+				</keywords>
+				<keywords scheme="#lcnaf">
+					<term>Travel books</term>
+				</keywords>
+				<keywords scheme="#tgn">
+					<term>Bologna</term>
+					<term>Paris</term>
+				</keywords>
+				<classCode scheme="#lcc">PQ145.6.T7</classCode>
+				<classCode scheme="#DDC">840</classCode> <!-- French literature -->
+			</textClass>
+		</profileDesc>
+ 	</teiHeader>
+ 	<text>
+ 		<body>
+			<p>
+				<date when="1817-04-23"><hi rend="italic">23 avril.</hi></date> = La haute société de <placeName ref="http://vocab.getty.edu/page/tgn/7004847">Bologne</placeName> a un peu de la couleur de celle de <placeName ref="http://vocab.getty.edu/page/tgn/7008038">Paris</placeName>; elle est animée par quelques-uns de ces êtres charmants qui offrent la réunion si rare de l'esprit, de la beauté et de la gaîté. <persName ref="http://id.loc.gov/authorities/names/n82110703">Madame Martinetti</persName> ferait sensation, même à Paris.
+			</p>
+		</body>
+ 	</text>
+</TEI>

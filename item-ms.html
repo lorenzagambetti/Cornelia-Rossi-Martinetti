@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <title>Raccolta - Cornelia Rossi Martinetti</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sito su Cornelia Rossi Martinetti" />
+    <meta name="keywords" content="salotti, Ottocento, libri, autori, Lugo, Bologna" />
+    <meta name="author" content="Lorenza Gambetti" />
+    <!-- metadati DC -->
+    <meta name="DC.Title" content="Cornelia Rossi Martinetti">
+    <meta name="DC.Creator" content="Lorenza Gambetti">
+    <meta name="DC.Subject" content="Cornelia Rossi Martinetti">
+    <link rel="DC.Subject" href="http://id.loc.gov/authorities/names/n82110703">
+    <meta name="DC.Description" content="Sito web sulle risorse culturali pubblicate online riguardanti il personaggio storico di Cornelia Rossi Martinetti">
+    <meta name="DC.Date" content="2024">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Format" content="html/css/js">
+    <link rel="DC.Identifier" href="https://www.corneliarossimartinetti.github.io">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Coverage" content="Ottocento">
+    <link rel="DC.Coverage"
+        href="http://vocab.getty.edu/page/tgn/1000080">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <!-- simboli -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+
+    <!-- collapsible navbar (responsive) -->
+    <nav class="navbar navbar-expand-lg" id="header-navbar">
+        <div class="container-fluid" id="navbar-container">
+            <div id="top" class="header">
+                <a class="navbar-brand" href="index.html"><img src="img/corneliarossimartinetti-logo.png" id="logo" class="mx-auto d-block" /></a>
+            </div>
+            <!-- toggle button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link navbar-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link navbar-link active" href="raccolta.html">Raccolta</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link navbar-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cornelia Rossi Martinetti</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Biografia</a></li>
+                            <li><a class="dropdown-item" href="citazioni-cornelia.html">Cornelia secondo i contemporanei</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="bibliografia.html">Bibliografia</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link navbar-link" href="#">Il progetto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <button onclick="topFunction()" id="myBtn" title="Torna su"><i class="fas fa-arrow-up"></i></button>
+
+    
+    <div class="impaginazione">
+        <!-- breadcrumbs -->
+        <div class="breadcrumbs prima-sezione">
+            <div class="bc" style="--bs-breadcrumb-divider: '>';">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="raccolta.html">Raccolta</a></li>
+                    <li class="breadcrumb-item active">Lettera di Ugo Foscolo alla contessa d'Albany</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="impaginazione-item">
+            <h1 class="h1-item">Lettera di Ugo Foscolo alla contessa d'Albany, 12 settembre 1813</h1>
+            <div class="row dati-item">
+                <div class="col-4">
+                    <img id="myImg" src="img/items-raccolta/letteraFoscoloAlbany.JPEG" alt="Lettera di Ugo Foscolo alla contessa d'Albany del 12 settembre 1813" class="rounded" />
+                    <!-- modal -->
+                    <div id="myModal" class="modal">
+                        <!-- close button -->
+                        <span class="close">&times;</span>
+                        <!-- modal content (the image)-->
+                        <img class="modal-content" id="img01" />
+                    </div>
+                    <div class="bg-light border rounded-3 mt-2 licenze">
+                        <h6 class="text-body-secondary">Licenze:</h6>
+                        <p class="text-body-secondary">
+                            <i class="fa-brands fa-creative-commons"></i><i class="fa-brands fa-creative-commons-pd"></i> 
+                            <a href="https://creativecommons.org/publicdomain/zero/1.0/" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" title="Creative Commons" target="_blank">CC0 1.0 Dominio pubblico</a>
+                        </p>
+                    </div>
+                    <div class="bg-light border rounded-3 mt-2 licenze">
+                        <h6 class="text-body-secondary">Trascrizione del testo:</h6>
+                        <div>
+                            <p>
+                                <i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> 
+                                <a href="#offcanvasText" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" data-bs-toggle="offcanvas" role="button"> Apri la trascrizione del testo</a>
+                            </p>
+                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasText" style="width:1000px">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title">Trascrizione del testo della lettera</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                                </div>
+                                <div class="p-3 m-3 text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-3">
+                                    N.B. La seguente trascrizione si trova pubblicata in <em>Opere complete di Ugo Foscolo. Volume secondo</em> - Napoli : [s.n.], 1860. <em>cfr.</em> p. 160.
+                                    <a href="https://www.google.it/books/edition/Opere_di_Ugo_Foscolo/MMTVGEwVuS8C?hl=it&gbpv=1" class="link-danger" title="Google Books" target="_blank">Link alla risorsa completa</a>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div>
+                                        <p><em>Alla contessa d'Albany</em></p>
+                                        <p>Bologna, 12 settembre 1813</p>
+                                        <p>"Mia signora, <br />
+                                        Eccomi solamente diviso da Firenze dal <em><span class="underline-dashed" title="sottolineato dall'autore">Padre Appennino</span></em>, come lo chiamava il povero Tasso quando fuggiva ramingo in Urbino : e spesso mi vergogno pensando ch'io ho speso in questo giro quanto a quel grand'uomo sarebbe bastato a vivere un anno. Mi fermerò qui sino a tutto il dì 20. - La bella Martinetti è partita per Parigi, anzi era in Milano quand'io vi giungeva a' 28 di luglio; ed ora sarà affaccendata a vedere ed a farsi vedere. Io frattanto mi sono albergato a una trista locanda, dove tremo di freddo, e torco il naso quando m'apparecchiano da desinare. Ho voluto ad ogni modo andare a visitare il bel giardino e la bella casa della bella Martinetti; e bench'io non abbia sospirato - oggimai non posso sospirare che per una sola persona - m'è tuttavia rincresciuto di non trovarvi la padrona gentile. - L'altra <em>Grazia</em>, di cui ella mi dice che sarebbe venuta in Bologna, non s'è per anche lasciata vedere, nè verrà, a quanto io credo: ma quand'anche mi capitasse innanzi, non mi farebbe nè bene nè male; non ho l'animo disposto alla galanteria. - Poche ore prima d'uscir di Milano ebbi un lungo colloquio con la B***, e mi parve più infelice e più virtuosa e più bella che mai; - e mi s'aprì una nuova piaga, in cui non so se l'antico amore ci ha parte, ma che mi si esacerba sempre più in tutti i pensieri, specialmente quando mi trovo solo; e sono mal mio grado convinto che non posso, nè potrò forse mai, recare sollievo alle sciagure di quella infelicissima giovine. Ma l'averla lasciata in questi momenti, e in sì <em>critiche circostanze</em>, e senza persona capace di consolarla è un rimorso che non può acquetarsi dentro di me. Ma di questo parlerò con lei, mia signora, ed ella m'udrà con bontà e con pietà; e narrandole schiettamente la storia, s'accorgerà ch'io non esagero il mio dispiacere. è vero che v'è certa voluttà nel dolore, anzi v'è spesso non so quale ostentazione patetica; ma la voluttà e l'ostentazione non hanno luogo quando l'afflizione nostra deriva dagli irreparabili mali degli altri - e di persone che non erano educate a soffrire; che avevano sortito dalla natura tanta virtù da non avere bisogno delle aspre lezioni della sventura. <br />
+                                        Non so dirle di certo se la <em>Ricciarda</em> si reciterà: andrò fra un'ora in teatro alle prove; e se l'attore che fa da <em><span class="underline-dashed" title="sottolineato dall'autore">Guido</span></em> non ci riescisse, io sospenderò assolutamente la recita. Gli amici miei che udirono le prove anteriori, mi hanno prognosticato assai male di quel disgraziatissimo attore; tanto più che il carattere di Guido, parte per colpa dell' argomento e parte per colpa dell'autore, è il più infelice della tragedia. - Comunque sia, pel giorno 20, o prima forse, sarò a discorrere con lei; e mi struggo di riposare una volta da questo pellegrinaggio, e di venire in una casa dove si possa caldamente e strettamente parlare. I miei saluti al sig. Fabre: spero di trovarlo sano della podagra, e che non abbia bisogno de' miei conforti. Ed ella, signora mia, viva certa ch'io verrò a rivederla come uomo che in questi cinquanta giorni ha quasi tutte le ore pensato a lei, e desiderando di darle prove di gratitudine per tante affettuosissime gentilezze di cui mi ha, oltre ogni mio merito ed espettazione, onorato. <br />
+                                        Suo servitore ed amico leale. <br />
+                                        Ugo Foscolo"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="sezione-metadati col-8">
+                    
+                    <div class="metadati rounded-3">
+                        <h3>Descrizione dell'oggetto fisico</h3>
+                        <p>
+                            <span>Autore:</span> Ugo Foscolo 
+                            <a class="btn btn-light" href="https://viaf.org/viaf/36929008/" title="VIAF - Virtual International Authority File" target="_blank">VIAF <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a> 
+                            <a class="btn btn-light" href="https://www.wikidata.org/wiki/Q166234" title="Wikidata" target="_blank">Wikidata <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a>
+                        </p>
+                        <p>
+                            <span>Luogo di creazione:</span> Bologna 
+                            <a class="btn btn-light" href=" http://vocab.getty.edu/page/tgn/7004847" title="Getty Thesaurus of Geographic Names" target="_blank">TGN <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a> 
+                            <a class="btn btn-light" href="https://id.loc.gov/authorities/names/n79021394" title="LC Name Authority File" target="_blank">LCNAF <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a></p>
+                        <p>
+                            <span>Data di creazione:</span> 1813-09-12
+                        </p>
+                        <p>
+                            <span>Tipologia:</span> Manoscritto 
+                            <a class="btn btn-light" href="http://vocab.getty.edu/page/aat/300028569" title="Getty Art & Architecture Thesaurus" target="_blank">AAT <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a>
+                        </p>
+                        <p>
+                            <span>Ubicazione:</span> Montpellier Méditerranée Métropole - Médiathèque centrale Emile Zola 
+                            <a class="btn btn-light" href="https://www.wikidata.org/wiki/Q123679984" title="Wikidata" target="_blank">Wikidata <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a>
+                        </p>
+                        <p>
+                            <span>Identificativo:</span> MS0062_A26_18
+                        </p>
+                    </div>
+                    <div class="metadati rounded-3">
+                        <h3>Descrizione della risorsa digitale</h3>
+                        <p>
+                            <span>Data di pubblicazione:</span> 2021-10-17
+                        </p>
+                        <p>
+                            <span>Pubblicazione :</span> Montpellier Méditerranée Métropole - Médiathèque centrale Emile Zola 
+                            <a class="btn btn-light" href="https://www.wikidata.org/wiki/Q123679984" title="Wikidata" target="_blank">Wikidata <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a>
+                        </p>
+                        <p>
+                            <span>Identificativo:</span> ark:/12148/btv1b10553665m
+                        </p>
+                        <p>
+                            <span>Intermediario:</span> Bibliothèque nationale de France 
+                            <a class="btn btn-light" href="https://viaf.org/viaf/137156173/" title="VIAF - Virtual International Authority File" target="_blank">VIAF <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a> 
+                            <a class="btn btn-light" href="https://id.loc.gov/authorities/names/no95028191.html" title="LC Name Authority File" target="_blank">LCNAF <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a>
+                        </p>
+                        <div class="d-flex py-3">
+                            <div class="me-auto">
+                                <a class="btn btn-dark" href="https://gallica.bnf.fr/ark:/12148/btv1b10553665m" title="gallica.bnf.fr" target="_blank">Vai alla risorsa <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a>
+                            </div>
+                            <div>
+                                <a class="btn btn-outline-dark" href="xml/xml-dc-ms.xml" title="Dublin Core" target="_blank">Scarica i dati XML/DC <i class="fa-regular fa-file-code" style="color:#ff6704"></i></a>
+                                <a class="btn btn-outline-dark" href="xml/xml-tei-ms.xml" title="Text Encoding Initiative" target="_blank">Scarica i dati XML/TEI <i class="fa-regular fa-file-code" style="color:#0059A8"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside class="p-4 my-4 rounded bg-light border contenuti-correlati">
+                <h3 class="mb-5 red-text">Contenuti correlati</h3>
+                <div class="row">    
+                    <div class="col">
+                        <h4>Scopri l'autore:</h4>
+                        <div class="card link-autore">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="img/Ugo_Foscolo.jpg" class="img-fluid rounded-start" alt="Ugo Foscolo" />
+                                </div>
+                                <div class="col-md-7">
+                                     <div class="card-body">
+                                        <h5>Ugo Foscolo 
+                                            <a class="btn btn-light btn-sm" href="https://viaf.org/viaf/36929008/" title="VIAF - Virtual International Authority File" target="_blank">VIAF <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a> 
+                                            <a class="btn btn-light btn-sm" href="https://www.wikidata.org/wiki/Q166234" title="Wikidata" target="_blank">Wikidata <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a>
+                                        </h5>
+                                        <p>Nascita: 6 febbraio 1778, Zante 
+                                            <a class="btn btn-light btn-sm" href="http://vocab.getty.edu/page/tgn/7011083" title="Getty Thesaurus of Geographic Names" target="_blank">TGN <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a>
+                                        </p>
+                                        <p>Morte: 10 settembre 1827, Londra 
+                                            <a class="btn btn-light btn-sm" href="http://vocab.getty.edu/page/tgn/7011781" title="Getty Thesaurus of Geographic Names" target="_blank">TGN <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a>
+                                        </p>
+                                        <div class="mt-2">
+                                            <a class="btn btn-outline-dark btn-sm" href="#"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                            <a class="btn btn-outline-dark btn-sm" href="#" role="button"><i class="fas fa-arrow-right" style="color:#cc0000"></i> Le sue opere nella raccolta</a>
+                                        </div>
+                                        <div class="mt-2">
+                                            <a class="btn btn-dark btn-sm" href="https://it.wikipedia.org/wiki/Ugo_Foscolo" title="Wikipedia" target="_blank">Pagina Wikipedia <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h4>Contenuti simili:</h4>
+                        <div class="card link-autore">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="img/items-raccolta/epistolario1-foscolo.jpg" class="img-fluid rounded-start" alt="Opere di Ugo Foscolo. Epistolario" />
+                                </div>
+                                <div class="col-md-7">
+                                     <div class="card-body">
+                                        <h5><em>Opere edite e postume di Ugo Foscolo (Vol. 6). Epistolario (Vol. 1)</em></h5>
+                                        <p>Autore: Ugo Foscolo 
+                                            <a class="btn btn-light btn-sm" href="https://viaf.org/viaf/36929008/" title="VIAF - Virtual International Authority File" target="_blank">VIAF <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a> 
+                                            <a class="btn btn-light btn-sm" href="https://www.wikidata.org/wiki/Q166234" title="Wikidata" target="_blank">Wikidata <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a>
+                                        </p>
+                                        <p>Data: 1854</p>
+                                        <p>Luogo: Firenze 
+                                            <a class="btn btn-light btn-sm" href="http://vocab.getty.edu/page/tgn/7000457" title="Getty Thesaurus of Geographic Names" target="_blank">TGN <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a>
+                                        </p>
+                                        <p>Tipologia: Libro 
+                                            <a class="btn btn-light btn-sm" href=" http://vocab.getty.edu/page/aat/300028051" title="Getty Art & Architecture Thesaurus" target="_blank">AAT <i class="fa-solid fa-arrow-up-right-from-square" style="color:#cc0000;"></i></a>
+                                        </p>
+                                        <a class="btn btn-outline-dark btn-sm" href="#"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    
+    </div>
+
+    <footer class="bg-light text-center py-3"> 
+        <p><a href="#">Crediti</a> - <a href="#">Licenze</a></p>
+        <p>&copy; Lorenza Gambetti 2024 - Corso di Digital Humanities e Patrimonio Culturale</p>
+    </footer>
+
+
+    <script src="script/script-modal-img.js"></script>
+    <script src="script/script-header.js"></script>
+  </body>
+</html>

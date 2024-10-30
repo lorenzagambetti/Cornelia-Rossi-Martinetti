@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:title>Rome, Naples et Florence, en 1817</dc:title>
+    <dc:creator xsi:type="dcterms:Agent" xsi:about="http://viaf.org/viaf/17823">Stendhal</dc:creator>
+    <dc:contributor xsi:type="dcterms:Agent" xsi:about="http://viaf.org/viaf/137636395">Delaunay</dc:contributor>
+    <dc:subject>Stendhal in Italia</dc:subject>
+    <dc:subject xsi:type="dcterms:LCSH">Travel books</dc:subject>
+    <dc:description>Libro di Stendhal sul viaggio in Italia nell'anno 1817.</dc:description>
+    <dc:publisher xsi:type="dcterms:Agent" xsi:about="https://www.wikidata.org/wiki/Q256507">Bayerische Staatsbibliothek</dc:publisher>
+    <dc:date>2011-12-12</dc:date>
+    <dc:type>text</dc:type>
+    <dc:identifier xsi:type="OCLC">3212385</dc:identifier> <!-- Online Computer Library Center (OCLC) -->
+    <dc:source>Rome, Naples et Florence, en 1817 - edizione 1817</dc:source>
+    <dc:source xsi:type="OCLC">3212385</dc:source>
+    <dc:language>fr</dc:language>
+    <dcterms:temporal>1817</dcterms:temporal>
+    <dcterms:temporal>Ottocento</dcterms:temporal>
+    <dcterms:spatial xsi:type="TGN">1000080</dcterms:spatial> <!-- Getty Thesaurus of Geographic Names: Italia -->
+    <dcterms:spatial xsi:type="TGN">7000874</dcterms:spatial> <!-- Getty Thesaurus of Geographic Names: Roma -->
+    <dcterms:spatial xsi:type="TGN">7004474</dcterms:spatial> <!-- Getty Thesaurus of Geographic Names: Napoli -->
+    <dcterms:spatial xsi:type="TGN">7000457</dcterms:spatial> <!-- Getty Thesaurus of Geographic Names: Firenze -->
+    <dc:rights xsi:type="CC">http://creativecommons.org/publicdomain/zero/1.0/</dc:rights>
+</metadata>

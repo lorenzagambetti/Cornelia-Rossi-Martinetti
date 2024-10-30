@@ -1,0 +1,1458 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <title>Raccolta - Cornelia Rossi Martinetti</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sito su Cornelia Rossi Martinetti" />
+    <meta name="keywords" content="salotti, Ottocento, libri, autori, Lugo, Bologna" />
+    <meta name="author" content="Lorenza Gambetti" />
+    <!-- metadati DC -->
+    <meta name="DC.Title" content="Cornelia Rossi Martinetti">
+    <meta name="DC.Creator" content="Lorenza Gambetti">
+    <meta name="DC.Subject" content="Cornelia Rossi Martinetti">
+    <link rel="DC.Subject" href="http://id.loc.gov/authorities/names/n82110703">
+    <meta name="DC.Description" content="Sito web sulle risorse culturali pubblicate online riguardanti il personaggio storico di Cornelia Rossi Martinetti">
+    <meta name="DC.Date" content="2024">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Format" content="html/css/js">
+    <link rel="DC.Identifier" href="https://www.corneliarossimartinetti.github.io">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Coverage" content="Ottocento">
+    <link rel="DC.Coverage"
+        href="http://vocab.getty.edu/page/tgn/1000080">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <!-- simboli -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+
+    <!-- collapsible navbar (responsive) -->
+    <nav class="navbar navbar-expand-lg" id="header-navbar">
+        <div class="container-fluid" id="navbar-container">
+            <div id="top" class="header">
+                <a class="navbar-brand" href="index.html"><img src="img/corneliarossimartinetti-logo.png" id="logo" class="mx-auto d-block" /></a>
+            </div>
+            <!-- toggle button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link navbar-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link navbar-link active" href="raccolta.html">Raccolta</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link navbar-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cornelia Rossi Martinetti</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Biografia</a></li>
+                            <li><a class="dropdown-item" href="citazioni-cornelia.html">Cornelia secondo i contemporanei</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="bibliografia.html">Bibliografia</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link navbar-link" href="#">Il progetto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <button onclick="topFunction()" id="myBtn" title="Torna su"><i class="fas fa-arrow-up"></i></button>
+
+    <div class="impaginazione">
+        <div class="prima-sezione">
+            <!-- breadcrumbs -->
+            <div class="breadcrumbs">
+                <div class="bc" style="--bs-breadcrumb-divider: '>';">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active">Raccolta</li>
+                    </ul>
+                </div>
+            </div>
+            <h1 class="h1-raccolta">Naviga nella raccolta</h1>
+        </div>
+
+
+        <!-- TABS -->
+        
+        <!-- navigazione tabs -->
+        <div>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-galleria-tab" data-bs-toggle="tab" data-bs-target="#nav-galleria" type="button" role="tab" aria-controls="nav-galleria" aria-selected="false">Galleria</button>
+                <button class="nav-link" id="nav-dettagli-tab" data-bs-toggle="tab" data-bs-target="#nav-dettagli" type="button" role="tab" aria-controls="nav-dettagli" aria-selected="true">Dettagli</button>
+                <button class="nav-link" id="nav-cronologia-tab" data-bs-toggle="tab" data-bs-target="#nav-cronologia" type="button" role="tab" aria-controls="nav-cronologia" aria-selected="false">Cronologia</button>
+                <button class="nav-link" id="nav-luoghi-tab" data-bs-toggle="tab" data-bs-target="#nav-luoghi" type="button" role="tab" aria-controls="nav-luoghi" aria-selected="false">Luoghi</button>
+                <button class="nav-link" id="nav-autori-tab" data-bs-toggle="tab" data-bs-target="#nav-autori" type="button" role="tab" aria-controls="nav-autori" aria-selected="false">Autori</button>
+            </div>
+        </div>
+
+        <!-- contenuto tabs -->
+        <div class="tab-content" id="nav-tabContent">
+            
+            <!-- tab gallery -->
+            <div class="tab-pane fade show active tab-raccolta" id="nav-galleria" role="tabpanel" aria-labelledby="nav-galleria-tab" tabindex="0">
+                <div class="row-raccolta-tab">
+                    
+                    <!-- colonna cerca e filtri-->
+                    <div class="column-tab column-tab-cerca">
+                        <div class="cerca-filtri tab-destra">
+                            <div>
+                                <h3>Cerca</h3>
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Cerca..." aria-label="Search">
+                                    <button class="btn btn-outline-light" type="submit">Vai</button>
+                                </form>
+                            </div>
+                            <div>
+                                <h3>Ordina:</h3>
+                                <select class="form-select" aria-label="Default select example">
+                                  <option selected>Dal meno recente</option>
+                                  <option value="1">Dal più recente</option>
+                                  <option value="2">Dalla A alla Z</option>
+                                  <option value="3">Dalla Z alla A</option>
+                                </select>
+                            </div>
+                            <div>
+                                <h3>Filtri</h3>
+                                <h5>Filtra per tipo di risorsa</h5>
+                                <input type="checkbox" class="btn-check" id="btn-libri" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-libri">Libri</label>
+                                <input type="checkbox" class="btn-check" id="btn-immagini" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-immagini">Immagini</label>
+                                <input type="checkbox" class="btn-check" id="btn-manoscritti" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-manoscritti">Manoscritti</label>
+                                <h5>Filtra per luogo</h5>
+                                <input type="checkbox" class="btn-check" id="btn-lugo" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-lugo">Lugo</label>
+                                <input type="checkbox" class="btn-check" id="btn-bologna" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-bologna">Bologna</label>
+                                <input type="checkbox" class="btn-check" id="btn-roma" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-roma">Roma</label>
+                                <input type="checkbox" class="btn-check" id="btn-firenze" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-firenze">Firenze</label>
+                                <input type="checkbox" class="btn-check" id="btn-parigi" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-parigi">Parigi</label>
+                                <input type="checkbox" class="btn-check" id="btn-napoli" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-napoli">Napoli</label>
+                            </div>
+                        </div>
+                        <div class="button-excel">
+                            <a class="btn btn-outline-dark link-excel" href="#" role="button" style="font-size: 19px; padding: 13px;">
+                                <i class="fas fa-arrow-right" style="color:#cc0000;"></i> Clicca qui per scaricare il file Excel della raccolta <i class="fa-regular fa-file-excel" style="color: green;"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- sezione gallery-->
+                    <div class="column-tab column-tab-items">
+                        <!-- Gallery -->
+                        <div class="row">
+                            <!-- prima colonna items -->
+                            <div class="col-lg-4 col-sm-12 mb-4 mb-lg-0">
+                                <div class="gallery-item rounded">
+                                    <a href="item-img.html">
+                                        <img src="img/items-raccolta/litografiaCornelia2.png" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Litografia Cornelia Rossi Martinetti con scritta" />
+                                        <div class="testo-overlay rounded">
+                                            <h5>Litografia di Cornelia Rossi Martinetti con scritta</h5>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/libro-amelie.png" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Romanzo Amélie - Cornelia Rossi Martinetti" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Amélie ou Le manuscrit de Thérèse de L.</em></h5>
+                                            <p>Autore: Cornelia Rossi Martinetti</p>
+                                            <p>Data: 1823</p>
+                                            <p>Luogo: Roma</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/epistolario1-leopardi.jpg" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Epistolario di Giacomo Leopardi. Vol. 1" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Epistolario di Giacomo Leopardi. Volume 1</em></h5>
+                                            <p>Autore: Giacomo Leopardi, Prospero Viani</p>
+                                            <p>Data: 1849</p>
+                                            <p>Luogo: Firenze</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/opere2-foscolo.png" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Opere di Foscolo, Vol. 2 (ed. 1860)" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Opere complete di Ugo Foscolo. Volume secondo</em></h5>
+                                            <p>Autore: Ugo Foscolo</p>
+                                            <p>Data: 1860</p>
+                                            <p>Luogo: Napoli</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/grazie-foscolo.png" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Opere scelte di Foscolo, I Sepolcri e Le Grazie" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Liriche scelte. I Sepolcri e Le Grazie</em></h5>
+                                            <p>Autore: Ugo Foscolo, Severino Ferrari</p>
+                                            <p>Data: 1891</p>
+                                            <p>Luogo: Firenze</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/palazzomartinetti-bologna.jpg" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Palazzo Martinetti Bologna" />
+                                        <div class="testo-overlay rounded">
+                                            <h5>Palazzo Martinetti</h5>
+                                            <p>Autore: Paolo Monti</p>
+                                            <p>Data: 1969</p>
+                                            <p>Luogo: Bologna</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- seconda colonna -->
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <div class="gallery-item rounded">
+                                    <a href="item-ms.html">
+                                        <img src="img/items-raccolta/letteraFoscoloAlbany.jpeg" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Lettera di Foscolo alla comtesse d'Albany" />
+                                        <div class="testo-overlay rounded">
+                                            <h5>Lettera di Foscolo alla contessa d'Albany, 12 settembre 1813</h5>
+                                            <p>Autore: Ugo Foscolo</p>
+                                            <p>Data: 1813</p>
+                                            <p>Luogo: Bologna</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Manoscritto</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/delecluze-cornelia.png" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Disegno di Cornelia fatto da Delécluze" />
+                                        <div class="testo-overlay rounded">
+                                            <h5>Disegno di Cornelia Martinetti in <em>Carnet de route d'Italie (1823-1824)</em></h5>
+                                            <p>Autore: Étienne-Jean Delécluze</p>
+                                            <p>Data: 1824</p>
+                                            <p>Luogo: Roma</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/epistolario1-foscolo.jpg" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Opere di Ugo Foscolo. Epistolario" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Opere edite e postume di Ugo Foscolo (Vol. 6). Epistolario (Vol. 1)</em></h5>
+                                            <p>Autore: Ugo Foscolo</p>
+                                            <p>Data: 1854</p>
+                                            <p>Luogo: Firenze</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/souvenirs-delecluze.JPEG" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Souvenirs dee soixante années - Delécluze" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Souvenirs de soixante années</em></h5>
+                                            <p>Autore: Étienne-Jean Delécluze</p>
+                                            <p>Data: 1862</p>
+                                            <p>Luogo: Parigi</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/epistolario2-leopardi.png" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Epistolario di Giacomo Leopardi, Vol. 2 (1892)" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Epistolario di Giacomo Leopardi. Volume 2</em></h5>
+                                            <p>Autore: Giacomo Leopardi, Prospero Viani</p>
+                                            <p>Data: 1892</p>
+                                            <p>Luogo: Firenze</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/palazzorossi2.jpg" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Palazzo Rossi, Lugo di Romagna" />
+                                        <div class="testo-overlay rounded">
+                                            <h5>Palazzo Rossi</h5>
+                                            <p>Autore: Paolo Guerra</p>
+                                            <p>Luogo: Lugo</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/tomba.jpg" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Tomba di Cornelia Rossi Martinetti al Cimitero della Certosa" />
+                                        <div class="testo-overlay rounded">
+                                            <h5>Tomba di Cornelia Rossi Martinetti al Cimitero della Certosa</h5>
+                                            <p>Luogo: Bologna</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- terza colonna -->
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <div class="gallery-item rounded">
+                                    <a href="item-libro.html">
+                                        <img src="img/items-raccolta/1817-stendhal.png" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Rome, Naples et Florence, en 1817 - Stendhal" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Rome, Naples et Florence, en 1817</em></h5>
+                                            <p>Autore: Stendhal</p>
+                                            <p>Data: 1817</p>
+                                            <p>Luogo: Parigi</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/litografiaCornelia1.jpg" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="litografia di Cornelia" />
+                                        <div class="testo-overlay rounded">
+                                            <h5>Litografia di Cornelia Rossi Martinetti</h5>
+                                            <p>Data: 1800-1849</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/letterainedita-foscolo.png" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Lettera di Foscolo alla Martinetti del 20 agosto 1812" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Lettera inedita di Ugo Foscolo</em></h5>
+                                            <p>Autore: Ugo Foscolo, Giambatista Cely-Colajanni</p>
+                                            <p>Data: 1858</p>
+                                            <p>Luogo: Napoli</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/lettere-foscolo-trechi.png" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Lettere di Foscolo a Trechi" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Lettere di Ugo Foscolo a Sigismondo Trechi</em></h5>
+                                            <p>Autore: Ugo Foscolo, Domenico Bianchini</p>
+                                            <p>Data: 1875</p>
+                                            <p>Luogo: Parigi</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/impressions-delecluze.png" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Carnet de route d'Italie. Impressions romaines - Delécluze" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Carnet de route d'Italie (1823-1824). Impressions romaines</em></h5>
+                                            <p>Autore: Étienne-Jean Delécluze</p>
+                                            <p>Data: 1942</p>
+                                            <p>Luogo: Parigi</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+            <!-- tab dettagli -->
+            <div class="tab-pane fade tab-raccolta" id="nav-dettagli" role="tabpanel" aria-labelledby="nav-dettagli-tab" tabindex="0">
+                <div class="row-raccolta-tab">
+                    
+                    <!-- colonna cerca e filtri-->
+                    <div class="column-tab column-tab-cerca">
+                        <div class="cerca-filtri tab-destra">
+                            <div>
+                                <h3>Cerca</h3>
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Cerca..." aria-label="Search">
+                                    <button class="btn btn-outline-light" type="submit">Vai</button>
+                                </form>
+                            </div>
+                            <div>
+                                <h3>Ordina:</h3>
+                                <select class="form-select" aria-label="Default select example">
+                                  <option selected>Dal meno recente</option>
+                                  <option value="1">Dal più recente</option>
+                                  <option value="2">Dalla A alla Z</option>
+                                  <option value="3">Dalla Z alla A</option>
+                                </select>
+                            </div>
+                            <div>
+                                <h3>Filtri</h3>
+                                <h5>Filtra per tipo di risorsa</h5>
+                                <input type="checkbox" class="btn-check" id="btn-libri2" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-libri2">Libri</label>
+                                <input type="checkbox" class="btn-check" id="btn-immagini2" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-immagini2">Immagini</label>
+                                <input type="checkbox" class="btn-check" id="btn-manoscritti2" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-manoscritti2">Manoscritti</label>
+                                <h5>Filtra per luogo</h5>
+                                <input type="checkbox" class="btn-check" id="btn-lugo2" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-lugo2">Lugo</label>
+                                <input type="checkbox" class="btn-check" id="btn-bologna2" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-bologna2">Bologna</label>
+                                <input type="checkbox" class="btn-check" id="btn-roma2" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-roma2">Roma</label>
+                                <input type="checkbox" class="btn-check" id="btn-firenze2" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-firenze2">Firenze</label>
+                                <input type="checkbox" class="btn-check" id="btn-parigi2" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-parigi2">Parigi</label>
+                                <input type="checkbox" class="btn-check" id="btn-napoli2" checked autocomplete="off">
+                                <label class="btn btn-outline-light" for="btn-napoli2">Napoli</label>
+                            </div>
+                        </div>
+                        <div class="button-excel">
+                            <a class="btn btn-outline-dark link-excel" href="#" role="button" style="font-size: 19px; padding: 13px;"><i class="fas fa-arrow-right" style="color:#cc0000;"></i> Clicca qui per scaricare il file Excel della raccolta <i class="fa-regular fa-file-excel" style="color: green;"></i> </a>
+                        </div>
+                    </div>
+                    
+                    <!-- colonna dettagli items -->
+                    <div class="column-tab column-tab-items dettagli">
+                        <!-- item uno -->
+                        <div class="card mb-3 item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/litografiaCornelia2.png" class="img-fluid rounded-2" alt="Litografia Cornelia Rossi Martinetti con scritta" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                        </div>
+                                        <h4 class="card-title">Litografia di Cornelia Rossi Martinetti con scritta</h4>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-brands fa-creative-commons"></i> CC BY-NC-SA 4.0. Conservato presso Biblioteca comunale dell'Archiginnasio</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="item-img.html"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <!-- item due -->
+                        <div class="card mb-3 item rounded-3">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/letteraFoscoloAlbany.jpeg" class="img-fluid rounded-2" alt="Lettera di Foscolo alla comtesse d'Albany" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Manoscritto</p>
+                                        </div>
+                                        <h4 class="card-title">Lettera di Foscolo alla contessa d'Albany, 12 settembre 1813</h4>
+                                        <div class="card-text">
+                                            <p>Autore: Ugo Foscolo</p>
+                                            <p>Data: 1813</p>
+                                            <p>Luogo: Bologna</p>
+                                        </div>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-brands fa-creative-commons-pd"></i> Public domain. Conservato presso  Montpellier Méditerranée Métropole - Médiathèque centrale Emile Zola</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="item-ms.html"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <!-- item tre (ecc) -->
+                        <div class="card mb-3 item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/1817-stendhal.png" class="img-fluid rounded-2" alt="Rome, Naples et Florence, en 1817 - Stendhal" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                        </div>
+                                        <h4 class="card-title"><em>Rome, Naples et Florence, en 1817</em></h4>
+                                        <div class="card-text">
+                                            <p>Autore: Stendhal</p>
+                                            <p>Data: 1817</p>
+                                            <p>Luogo: Parigi</p>
+                                        </div>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-brands fa-creative-commons-pd"></i> Public domain. Conservato presso da Bayerische Staatsbibliothek</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="item-libro.html"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="card mb-3 item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/libro-amelie.png" class="img-fluid rounded-2" alt="Romanzo Amélie - Cornelia Rossi Martinetti" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                        </div>
+                                        <h4 class="card-title"><em>Amélie ou Le manuscrit de Thérèse de L.</em></h4>
+                                        <div class="card-text">
+                                            <p>Autore: Cornelia Rossi Martinetti</p>
+                                            <p>Data: 1823</p>
+                                            <p>Luogo: Roma</p>
+                                        </div>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-brands fa-creative-commons-pd"></i> Public domain. Conservato presso Biblioteka Narodowa</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="#"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="card mb-3 item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/delecluze-cornelia.png" class="img-fluid rounded-2" alt="Disegno di Cornelia fatto da Delécluze" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                        </div>
+                                        <h4 class="card-title">Disegno di Cornelia Martinetti in <em>Carnet de route d'Italie (1823-1824)</em></h4>
+                                        <div class="card-text">
+                                            <p>Autore: Étienne-Jean Delécluze</p>
+                                            <p>Data: 1824</p>
+                                            <p>Luogo: Roma</p>
+                                        </div>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-brands fa-creative-commons-pd"></i> Public domain. Conservato presso Bibliotheca Hertziana</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="#"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="card mb-3 item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/litografiaCornelia1.jpg" class="img-fluid rounded-2" alt="Litografia di Cornelia" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                        </div>
+                                        <h4 class="card-title">Litografia di Cornelia Rossi Martinetti</h4>
+                                        <div class="card-text">
+                                            <p>Data: 1800-1849</p>
+                                        </div>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-brands fa-creative-commons"></i> CC BY-NC-ND 3.0. Conservato presso Museo del Risorgimento "A. Saffi"</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="#"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="card mb-3 item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/epistolario1-leopardi.jpg" class="img-fluid rounded-2" alt="Epistolario di Giacomo Leopardi. Vol. 1" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                        </div>
+                                        <h4 class="card-title"><em>Epistolario di Giacomo Leopardi. Volume 1</em></h4>
+                                        <div class="card-text">
+                                            <p>Autore: Giacomo Leopardi, Prospero Viani</p>
+                                            <p>Data: 1849</p>
+                                            <p>Luogo: Firenze</p>
+                                        </div>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-brands fa-creative-commons-pd"></i> Public domain. Conservato presso Biblioteca di Cremona</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="#"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="card mb-3 item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/epistolario1-foscolo.jpg" class="img-fluid rounded-2" alt="Opere di Ugo Foscolo. Epistolario" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                        </div>
+                                        <h4 class="card-title"><em>Opere edite e postume di Ugo Foscolo (Vol. 6). Epistolario (Vol. 1)</em></h4>
+                                        <div class="card-text">
+                                            <p>Autore: Ugo Foscolo</p>
+                                            <p>Data: 1854</p>
+                                            <p>Luogo: Firenze</p>
+                                        </div>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-brands fa-creative-commons-pd"></i> Public domain. Conservato presso Biblioteca Nazionale di Napoli</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="#"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="card mb-3 item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/letterainedita-foscolo.png" class="img-fluid rounded-2" alt="Lettera di Foscolo alla Martinetti del 20 agosto 1812" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                        </div>
+                                        <h4 class="card-title"><em>Lettera inedita di Ugo Foscolo</em></h4>
+                                        <div class="card-text">
+                                            <p>Autore: Ugo Foscolo, Giambatista Cely-Colajanni</p>
+                                            <p>Data: 1858</p>
+                                            <p>Luogo: Napoli</p>
+                                        </div>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-brands fa-creative-commons-pd"></i> Public domain. Conservato presso Biblioteca Nazionale di Napoli</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="#"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="card mb-3 item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/opere2-foscolo.png" class="img-fluid rounded-2" alt="Opere di Foscolo, Vol. 2 (ed. 1860)" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                        </div>
+                                        <h4 class="card-title"><em>Opere complete di Ugo Foscolo. Volume secondo</em></h4>
+                                        <div class="card-text">
+                                            <p>Autore: Ugo Foscolo</p>
+                                            <p>Data: 1860</p>
+                                            <p>Luogo: Napoli</p>
+                                        </div>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-brands fa-creative-commons-pd"></i> Public domain. Conservato presso Biblioteca di Filosofia - Sapienza Università di Roma</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="#"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="card mb-3 item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/souvenirs-delecluze.JPEG" class="img-fluid rounded-2" alt="Souvenirs dee soixante années - Delécluze" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                        </div>
+                                        <h4 class="card-title"><em>Souvenirs de soixante années</em></h4>
+                                        <div class="card-text">
+                                            <p>Autore: Étienne-Jean Delécluze</p>
+                                            <p>Data: 1862</p>
+                                            <p>Luogo: Parigi</p>
+                                        </div>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-brands fa-creative-commons-pd"></i> Public domain. Conservato presso Bibliothèque municipale de Lyon</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="#"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="card mb-3 item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/lettere-foscolo-trechi.png" class="img-fluid rounded-2" alt="Lettere di Foscolo a Trechi" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                        </div>
+                                        <h4 class="card-title"><em>Lettere di Ugo Foscolo a Sigismondo Trechi</em></h4>
+                                        <div class="card-text">
+                                            <p>Autore: Ugo Foscolo, Domenico Bianchini</p>
+                                            <p>Data: 1875</p>
+                                            <p>Luogo: Parigi</p>
+                                        </div>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-brands fa-creative-commons-pd"></i> Public domain. Conservato presso The British Library</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="#"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="card mb-3 item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/grazie-foscolo.png" class="img-fluid rounded-2" alt="Opere scelte di Foscolo, I Sepolcri e Le Grazie" />
+                                </div>
+                                <div class="col-md-8">
+                                   <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                        </div>
+                                        <h4 class="card-title"><em>Liriche scelte. I Sepolcri e Le Grazie</em></h4>
+                                        <div class="card-text">
+                                            <p>Autore: Ugo Foscolo, Severino Ferrari</p>
+                                            <p>Data: 1891</p>
+                                            <p>Luogo: Firenze</p>
+                                        </div>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-brands fa-creative-commons-pd"></i> Public domain. Conservato presso Princeton University Library</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="#"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="card mb-3 item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/epistolario2-leopardi.png" class="img-fluid rounded-2" alt="Epistolario di Giacomo Leopardi, Vol. 2 (1892)" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                        </div>
+                                        <h4 class="card-title"><em>Epistolario di Giacomo Leopardi. Volume 2</em></h4>
+                                        <div class="card-text">
+                                            <p>Autore: Giacomo Leopardi, Prospero Viani</p>
+                                            <p>Data: 1892</p>
+                                            <p>Luogo: Firenze</p>
+                                        </div>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-brands fa-creative-commons-pd"></i> Public domain. Conservato presso University of Michigan Library</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="#"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="card mb-3 item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/impressions-delecluze.png" class="img-fluid rounded-2" alt="Carnet de route d'Italie. Impressions romaines - Delécluze" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                        </div>
+                                        <h4 class="card-title"><em>Carnet de route d'Italie (1823-1824). Impressions romaines</em></h4>
+                                        <div class="card-text">
+                                            <p>Autore: Étienne-Jean Delécluze</p>
+                                            <p>Data: 1942</p>
+                                            <p>Luogo: Parigi</p>
+                                        </div>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-regular fa-copyright"></i> Nouvelles Éditions Latines</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="#"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="card mb-3 item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/palazzorossi2.jpg" class="img-fluid rounded-2" alt="Palazzo Rossi, Lugo di Romagna" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                        </div>
+                                        <h4 class="card-title">Palazzo Rossi</h4>
+                                        <div class="card-text">
+                                            <p>Autore: Paolo Guerra</p>
+                                            <p>Luogo: Lugo</p>
+                                        </div>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-regular fa-copyright"></i> Pavaglione Lugo</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="#"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/palazzomartinetti-bologna.jpg" class="img-fluid rounded-2" alt="Palazzo Martinetti Bologna" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                        </div>
+                                        <h4 class="card-title">Palazzo Martinetti</h4>
+                                        <div class="card-text">
+                                            <p>Autore: Paolo Monti</p>
+                                            <p>Data: 1969</p>
+                                            <p>Luogo: Bologna</p>
+                                        </div>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-brands fa-creative-commons"></i> CC BY-SA 4.0. Conservato presso Biblioteca europea di Milano</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="#"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/items-raccolta/tomba.jpg" class="img-fluid rounded-2" alt="Tomba di Cornelia Rossi Martinetti al Cimitero della Certosa" />
+                                </div>
+                                <div class="col-md-8">
+                                   <div class="card-body">
+                                        <div class="etichetta-items rounded-2">
+                                            <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                        </div>
+                                        <h4 class="card-title">Tomba di Cornelia Rossi Martinetti al Cimitero della Certosa</h4>
+                                        <div class="card-text">
+                                            <p>Luogo: Bologna</p>
+                                        </div>
+                                        <p class="card-text"><small class="text-body-secondary"><i class="fa-brands fa-creative-commons"></i> CC BY-SA 4.0</small></p>
+                                        <div class="vai-scheda">
+                                            <a class="btn btn-outline-dark" href="#"><i class="fa-solid fa-file-lines" style="color:#cc0000;"></i> Scheda completa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- tab cronologia -->
+            <div class="tab-pane fade tab-raccolta" id="nav-cronologia" role="tabpanel" aria-labelledby="nav-cronologia-tab" tabindex="0">
+                <div class="row-raccolta-tab">
+                    <!-- colonna cerca e filtri-->
+                    <div class="column-tab column-tab-cerca">
+                        <div class="cerca-filtri tab-destra">
+                            <div>
+                                <h3>Cerca</h3>
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Cerca..." aria-label="Search">
+                                    <button class="btn btn-outline-light" type="submit">Vai</button>
+                                </form>
+                            </div>
+                            <div>
+                                <h3>Vai all'anno:</h3>
+                                <a class="btn btn-outline-light" href="#" role="button">1813</a>
+                                <a class="btn btn-outline-light" href="#" role="button">1817</a>
+                                <a class="btn btn-outline-light" href="#" role="button">1823</a>
+                                <a class="btn btn-outline-light" href="#" role="button">1824</a>
+                                <a class="btn btn-outline-light" href="#" role="button">1849</a>
+                                <a class="btn btn-outline-light" href="#" role="button">1854</a>
+                                <a class="btn btn-outline-light" href="#" role="button">1858</a>
+                                <a class="btn btn-outline-light" href="#" role="button">1860</a>
+                                <a class="btn btn-outline-light" href="#" role="button">1862</a>
+                                <a class="btn btn-outline-light" href="#" role="button">1875</a>
+                                <a class="btn btn-outline-light" href="#" role="button">1891</a>
+                                <a class="btn btn-outline-light" href="#" role="button">1892</a>
+                                <a class="btn btn-outline-light" href="#" role="button">1942</a>
+                                <a class="btn btn-outline-light" href="#" role="button">1969</a>
+                                <a class="btn btn-outline-light" href="#unknown" role="button">Unknown</a>
+                            </div>
+                        </div>
+                        <div class="button-excel">
+                            <a class="btn btn-outline-dark link-excel" href="#" role="button" style="font-size: 19px; padding: 13px;"><i class="fas fa-arrow-right" style="color:#cc0000;"></i> Clicca qui per scaricare il file Excel della raccolta <i class="fa-regular fa-file-excel" style="color: green;"></i> </a>
+                        </div>
+                    </div>
+                    
+                    
+                    <!-- sezione date -->
+                    <div class="column-tab column-tab-items">
+                        <!-- prima data -->
+                        <div class="row-cronologia">
+                            <div class="column-data column-cronologia">
+                                <h1 class="data">1813</h1>
+                            </div>
+                            <div class="column-items column-cronologia">
+                                <div class="gallery-item rounded">
+                                    <a href="item-ms.html">
+                                        <img src="img/items-raccolta/letteraFoscoloAlbany.jpeg" class="w-100 shadow-1-strong rounded img-overlay" alt="Lettera di Foscolo alla comtesse d'Albany" />
+                                        <div class="testo-overlay rounded">
+                                            <h5>Lettera di Foscolo alla contessa d'Albany, 12 settembre 1813</h5>
+                                            <p>Autore: Ugo Foscolo</p>
+                                            <p>Data: 1813</p>
+                                            <p>Luogo: Bologna</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Manoscritto</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- seconda data (ecc.) -->
+                        <div class="row-cronologia">
+                            <div class="column-data column-cronologia">
+                                <h1 class="data">1817</h1>
+                            </div>
+                            <div class="column-items column-cronologia">
+                                <div class="gallery-item rounded">
+                                    <a href="item-libro.html">
+                                        <img src="img/items-raccolta/1817-stendhal.png" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Rome, Naples et Florence, en 1817 - Stendhal" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Rome, Naples et Florence, en 1817</em></h5>
+                                            <p>Autore: Stendhal</p>
+                                            <p>Data: 1817</p>
+                                            <p>Luogo: Parigi</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-cronologia">
+                            <div class="column-data column-cronologia">
+                                <h1 class="data">1823</h1>
+                            </div>
+                            <div class="column-items column-cronologia">
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/libro-amelie.png" class="w-100 shadow-1-strong rounded img-overlay" alt="Romanzo Amélie - Cornelia Rossi Martinetti" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Amélie ou Le manuscrit de Thérèse de L.</em></h5>
+                                            <p>Autore: Cornelia Rossi Martinetti</p>
+                                            <p>Data: 1823</p>
+                                            <p>Luogo: Roma</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-cronologia">
+                            <div class="column-data column-cronologia">
+                                <h1 class="data">1824</h1>
+                            </div>
+                            <div class="column-items column-cronologia">
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/delecluze-cornelia.png" class="w-100 shadow-1-strong rounded img-overlay" alt="Disegno di Cornelia fatto da Delécluze" />
+                                        <div class="testo-overlay rounded">
+                                            <h5>Disegno di Cornelia Martinetti in <em>Carnet de route d'Italie (1823-1824)</em></h5>
+                                            <p>Autore: Étienne-Jean Delécluze</p>
+                                            <p>Data: 1824</p>
+                                            <p>Luogo: Roma</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-cronologia">
+                            <div class="column-data column-cronologia">
+                                <h1 class="data">1849</h1>
+                            </div>
+                            <div class="column-items-multipli column-cronologia">
+                               <div class="row">
+                                    <div class="col-4">
+                                        <div class="gallery-item rounded">
+                                            <a href="#">
+                                                <img src="img/items-raccolta/epistolario1-leopardi.jpg" class="w-100 shadow-1-strong rounded img-overlay" alt="Epistolario di Giacomo Leopardi. Vol. 1" />
+                                                <div class="testo-overlay rounded">
+                                                    <h5><em>Epistolario di Giacomo Leopardi. Volume 1</em></h5>
+                                                    <p>Autore: Giacomo Leopardi, Prospero Viani</p>
+                                                    <p>Data: 1849</p>
+                                                    <p>Luogo: Firenze</p>
+                                                    <div class="etichetta-items rounded-2">
+                                                        <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="gallery-item rounded">
+                                            <a href="#">
+                                                <img src="img/items-raccolta/litografiaCornelia1.jpg" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="litografia di Cornelia" />
+                                                <div class="testo-overlay rounded">
+                                                    <h5>Litografia di Cornelia Rossi Martinetti</h5>
+                                                    <p>Data: 1800-1849</p>
+                                                    <div class="etichetta-items rounded-2">
+                                                        <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-cronologia">
+                            <div class="column-data column-cronologia">
+                                <h1 class="data">1854</h1>
+                            </div>
+                            <div class="column-items column-cronologia">
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/epistolario1-foscolo.jpg" class="w-100 shadow-1-strong rounded img-overlay" alt="Opere di Ugo Foscolo. Epistolario" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Opere edite e postume di Ugo Foscolo (Vol. 6). Epistolario (Vol. 1)</em></h5>
+                                            <p>Autore: Ugo Foscolo</p>
+                                            <p>Data: 1854</p>
+                                            <p>Luogo: Firenze</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-cronologia">
+                            <div class="column-data column-cronologia">
+                                <h1 class="data">1858</h1>
+                            </div>
+                            <div class="column-items column-cronologia">
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/letterainedita-foscolo.png" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Lettera di Foscolo alla Martinetti del 20 agosto 1812" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Lettera inedita di Ugo Foscolo</em></h5>
+                                            <p>Autore: Ugo Foscolo, Giambatista Cely-Colajanni</p>
+                                            <p>Data: 1858</p>
+                                            <p>Luogo: Napoli</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-cronologia">
+                            <div class="column-data column-cronologia">
+                                <h1 class="data">1860</h1>
+                            </div>
+                            <div class="column-items column-cronologia">
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/opere2-foscolo.png" class="w-100 shadow-1-strong rounded img-overlay" alt="Opere di Foscolo, Vol. 2 (ed. 1860)" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Opere complete di Ugo Foscolo. Volume secondo</em></h5>
+                                            <p>Autore: Ugo Foscolo</p>
+                                            <p>Data: 1860</p>
+                                            <p>Luogo: Napoli</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-cronologia">
+                            <div class="column-data column-cronologia">
+                                <h1 class="data">1862</h1>
+                            </div>
+                            <div class="column-items column-cronologia">
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/souvenirs-delecluze.JPEG" class="w-100 shadow-1-strong rounded img-overlay" alt="Souvenirs dee soixante années - Delécluze" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Souvenirs de soixante années</em></h5>
+                                            <p>Autore: Étienne-Jean Delécluze</p>
+                                            <p>Data: 1862</p>
+                                            <p>Luogo: Parigi</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-cronologia">
+                            <div class="column-data column-cronologia">
+                                <h1 class="data">1875</h1>
+                            </div>
+                            <div class="column-items column-cronologia">
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/lettere-foscolo-trechi.png" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Lettere di Foscolo a Trechi" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Lettere di Ugo Foscolo a Sigismondo Trechi</em></h5>
+                                            <p>Autore: Ugo Foscolo, Domenico Bianchini</p>
+                                            <p>Data: 1875</p>
+                                            <p>Luogo: Parigi</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-cronologia">
+                            <div class="column-data column-cronologia">
+                                <h1 class="data">1891</h1>
+                            </div>
+                            <div class="column-items column-cronologia">
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/grazie-foscolo.png" class="w-100 shadow-1-strong rounded img-overlay" alt="Opere scelte di Foscolo, I Sepolcri e Le Grazie" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Liriche scelte. I Sepolcri e Le Grazie</em></h5>
+                                            <p>Autore: Ugo Foscolo, Severino Ferrari</p>
+                                            <p>Data: 1891</p>
+                                            <p>Luogo: Firenze</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-cronologia">
+                            <div class="column-data column-cronologia">
+                                <h1 class="data">1892</h1>
+                            </div>
+                            <div class="column-items column-cronologia">
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/epistolario2-leopardi.png" class="w-100 shadow-1-strong rounded img-overlay" alt="Epistolario di Giacomo Leopardi, Vol. 2 (1892)" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Epistolario di Giacomo Leopardi. Volume 2</em></h5>
+                                            <p>Autore: Giacomo Leopardi, Prospero Viani</p>
+                                            <p>Data: 1892</p>
+                                            <p>Luogo: Firenze</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-cronologia">
+                            <div class="column-data column-cronologia">
+                                <h1 class="data">1942</h1>
+                            </div>
+                            <div class="column-items column-cronologia">
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/impressions-delecluze.png" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Carnet de route d'Italie. Impressions romaines - Delécluze" />
+                                        <div class="testo-overlay rounded">
+                                            <h5><em>Carnet de route d'Italie (1823-1824). Impressions romaines</em></h5>
+                                            <p>Autore: Étienne-Jean Delécluze</p>
+                                            <p>Data: 1942</p>
+                                            <p>Luogo: Parigi</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Libro</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-cronologia" id="1969">
+                            <div class="column-data column-cronologia">
+                                <h1 class="data">1969</h1>
+                            </div>
+                            <div class="column-items column-cronologia">
+                                <div class="gallery-item rounded">
+                                    <a href="#">
+                                        <img src="img/items-raccolta/palazzomartinetti-bologna.jpg" class="w-100 shadow-1-strong rounded img-overlay" alt="Palazzo Martinetti Bologna" />
+                                        <div class="testo-overlay rounded">
+                                            <h5>Palazzo Martinetti</h5>
+                                            <p>Autore: Paolo Monti</p>
+                                            <p>Data: 1969</p>
+                                            <p>Luogo: Bologna</p>
+                                            <div class="etichetta-items rounded-2">
+                                                <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-cronologia" id="unknown">
+                            <div class="column-data column-cronologia">
+                                <h1 class="data">Unknown</h1>
+                            </div>
+                            <div class="column-items-multipli column-cronologia">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="gallery-item rounded">
+                                            <a href="item-img.html">
+                                                <img src="img/items-raccolta/litografiaCornelia2.png" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Litografia Cornelia Rossi Martinetti con scritta" />
+                                                <div class="testo-overlay rounded">
+                                                    <h5>Litografia di Cornelia Rossi Martinetti con scritta</h5>
+                                                    <div class="etichetta-items rounded-2">
+                                                        <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="gallery-item rounded">
+                                            <a href="#">
+                                                <img src="img/items-raccolta/palazzorossi2.jpg" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Palazzo Rossi, Lugo di Romagna" />
+                                                <div class="testo-overlay rounded">
+                                                    <h5>Palazzo Rossi</h5>
+                                                    <p>Autore: Paolo Guerra</p>
+                                                    <p>Luogo: Lugo</p>
+                                                    <div class="etichetta-items rounded-2">
+                                                        <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="gallery-item rounded">
+                                            <a href="#">
+                                                <img src="img/items-raccolta/tomba.jpg" class="w-100 shadow-1-strong rounded mb-4 img-overlay" alt="Tomba di Cornelia Rossi Martinetti al Cimitero della Certosa" />
+                                                <div class="testo-overlay rounded">
+                                                    <h5>Tomba di Cornelia Rossi Martinetti al Cimitero della Certosa</h5>
+                                                    <p>Luogo: Bologna</p>
+                                                    <div class="etichetta-items rounded-2">
+                                                        <p><i class="fa-regular fa-bookmark"></i> Immagine</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tab luoghi -->
+            <div class="tab-pane fade tab-raccolta" id="nav-luoghi" role="tabpanel" aria-labelledby="nav-luoghi-tab" tabindex="0">
+                <h2 class="h2-raccolta">I <span class="underline-text">luoghi</span> della raccolta</h2>
+                <!--cards luoghi-->
+                <div class="row row-cols-4 g-2">
+                    <div class="col">
+                        <div class="gallery-item luoghi">
+                            <a href="#">
+                                <img src="img/Lugo.jpg" class="w-100 shadow-1-strong rounded img-overlay" alt="Lugo">
+                                <div class="testo-overlay rounded">
+                                    <h5>Lugo</h5>
+                                    <p>In foto: Palazzo dei Conti Rossi</p>
+                                </div>
+                            </a>
+                        </div>     
+                    </div>
+                    <div class="col">
+                        <div class="gallery-item luoghi">
+                            <a href="#">
+                                <img src="img/Bologna.jpg" class="w-100 shadow-1-strong rounded img-overlay" alt="Bologna">
+                                <div class="testo-overlay rounded">
+                                    <h5>Bologna</h5>
+                                    <p>In foto: Palazzo Martinetti-Rossi</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="gallery-item luoghi">
+                            <a href="#">
+                                <img src="img/Roma.jpg" class="w-100 shadow-1-strong rounded img-overlay" alt="Roma">
+                                <div class="testo-overlay rounded">
+                                    <h5>Roma</h5>
+                                    <p>In foto: Palazzo Cenci-Bolognetti</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="gallery-item luoghi">
+                            <a href="#">
+                                <img src="img/Parigi.jpg" class="w-100 shadow-1-strong rounded img-overlay" alt="Parigi">
+                                <div class="testo-overlay rounded">
+                                    <h5>Parigi</h5>
+                                    <p>In foto: Château de Malmaison</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="gallery-item luoghi">
+                            <a href="#">
+                                <img src="img/Firenze.jpg" class="w-100 shadow-1-strong rounded img-overlay" alt="Firenze">
+                                <div class="testo-overlay rounded">
+                                    <h5>Firenze</h5>
+                                    <p>In foto: Palazzo Gianfigliazzi</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- tab autori -->
+            <div class="tab-pane fade tab-raccolta" id="nav-autori" role="tabpanel" aria-labelledby="nav-autori-tab" tabindex="0">
+                <h2 class="h2-raccolta">Gli <span class="underline-text">autori</span> della raccolta</h2>
+                <!--cards autori-->
+                <div class="row row-cols-3 row-cols-md-5 g-2">
+                    <div class="col">
+                        <div class="gallery-item autori">
+                            <a href="#">
+                                <img src="img/litografiaCornelia1.jpg" class="w-100 shadow-1-strong rounded img-overlay" alt="Cornelia Rossi Martinetti">
+                                <div class="testo-overlay rounded">
+                                    <h5>Cornelia Rossi Martinetti</h5>
+                                </div>
+                            </a>
+                        </div>     
+                    </div>
+                    <div class="col">
+                        <div class="gallery-item autori">
+                            <a href="#">
+                                <img src="img/Foscolo.jpg" class="w-100 shadow-1-strong rounded img-overlay" alt="Ugo Foscolo">
+                                <div class="testo-overlay rounded">
+                                    <h5>Ugo Foscolo</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="gallery-item autori">
+                            <a href="#">
+                                <img src="img/Leopardi.jpg" class="w-100 shadow-1-strong rounded img-overlay" alt="Giacomo Leopardi">
+                                <div class="testo-overlay rounded">
+                                    <h5>Giacomo Leopardi</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="gallery-item autori">
+                            <a href="#">
+                                <img src="img/Stendhal.jpg" class="w-100 shadow-1-strong rounded img-overlay" alt="Stendhal">
+                                <div class="testo-overlay rounded">
+                                    <h5>Stendhal</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="gallery-item autori">
+                            <a href="#">
+                                <img src="img/Delecluze.jpeg" class="w-100 shadow-1-strong rounded img-overlay" alt="Étienne-Jean Delécluze">
+                                <div class="testo-overlay rounded">
+                                    <h5>Étienne-Jean Delécluze</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center py-3"> 
+        <p><a href="#">Crediti</a> - <a href="#">Licenze</a></p>
+        <p>&copy; Lorenza Gambetti 2024 - Corso di Digital Humanities e Patrimonio Culturale</p>
+    </footer>
+
+
+    <script src="script/script-header.js"></script>
+  </body>
+</html>
