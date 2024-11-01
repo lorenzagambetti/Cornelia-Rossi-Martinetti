@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 
-<metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+<metadata xmlns:mp="http://example.org/MyProject/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
           xmlns:dcterms="http://purl.org/dc/terms/"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://example.org/MyProject/ http://example.org/MyProject/schema.xsd">
     <dc:title>Litografia di Cornelia Rossi Martinetti</dc:title>
-    <dc:subject xsi:type="dcterms:Agent" xsi:about="http://viaf.org/viaf/18571404">Rossi Martinetti, Cornelia</dc:subject>
-    <dc:subject xsi:type="dcterms:Agent" xsi:about="https://www.wikidata.org/wiki/Q52709250">Cornelia Rossi Martinetti</dc:subject>
-    <dc:subject xsi:type="dcterms:LCSH">Women authors, Italian</dc:subject>
+    <dc:subject xsi:type="mp:viaf" mp:ref="http://viaf.org/viaf/18571404">Rossi Martinetti, Cornelia</dc:subject>
+    <dc:subject xsi:type="mp:wikidata" mp:ref="https://www.wikidata.org/wiki/Q52709250">Cornelia Rossi Martinetti</dc:subject>
+    <dc:subject xsi:type="dcterms:LCSH" mp:ref="http://id.loc.gov/authorities/subjects/sh85147469">Women authors, Italian</dc:subject>
     <dc:description>Litografia di Cornelia Rossi Martinetti con scritta.</dc:description>
-    <dc:publisher xsi:type="dcterms:Agent" xsi:about="https://www.wikidata.org/wiki/Q3639645">Biblioteca comunale dell'Archiginnasio</dc:publisher>
+    <dc:publisher xsi:type="mp:wikidata" mp:ref="https://www.wikidata.org/wiki/Q3639645">Biblioteca comunale dell'Archiginnasio</dc:publisher>
     <dc:type>image</dc:type>
     <dc:format>image/jpeg</dc:format>
-    <dc:identifier xsi:type="UUID">d2180921-4943-4e61-973a-e197942ab57e</dc:identifier> <!-- identificativo univoco universale (universally unique identifier UUID) -->
+    <dc:identifier xsi:type="mp:UUID">d2180921-4943-4e61-973a-e197942ab57e</dc:identifier> <!-- identificativo univoco universale (universally unique identifier UUID) -->
     <dc:language>ita</dc:language>
     <dc:coverage>1781-1867</dc:coverage>
     <dc:coverage>Ottocento</dc:coverage>
     <dc:coverage>Novecento</dc:coverage>
-    <dc:rights xsi:type="CC">http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+    <dc:rights xsi:type="mp:CC" mp:ref="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licenza Creative Commons BY-NC-SA 4.0</dc:rights>
 </metadata>
